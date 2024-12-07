@@ -53,7 +53,7 @@ const UserSelection = ({ onSelectRole }) => {
                   required
                 />
               </div>
-              <div className="form-group">
+              {/* <div className="form-group">
                 <label htmlFor="password">Password</label>
                 <input
                   type="password"
@@ -63,7 +63,7 @@ const UserSelection = ({ onSelectRole }) => {
                   onChange={handleInputChange}
                   required
                 />
-              </div>
+              </div> */}
               <div className="form-actions">
                 <button type="submit" className="submit-button"
                   onClick={() => window.location.href = `/${formData.username}`}>
