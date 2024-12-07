@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+
+# Build directory
+build/
+
+# Environment variables
+.env
+
+# Firebase related files (if you don't want them in the repo)
+.firebase/
+.firebase/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: IDE settings
+.vscode/
+.idea/
